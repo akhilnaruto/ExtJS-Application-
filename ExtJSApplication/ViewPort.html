@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link href="ExtJS/ext-theme-neptune-all.css" rel="stylesheet" />
+	<script src="ExtJS/ext-all-debug.js"></script>
+	<script>
+
+	 var sessionsPanel = Ext.create('Ext.Panel', {
+		 html: 'SessionsPanel',
+		 flex:2
+		});
+
+	 var speakersPanel =    Ext.create('Ext.Panel', {
+		 html: 'SpeakersPanel',
+         flex:1
+		});
+
+	var detailsPanel =    Ext.create('Ext.Panel', {
+		html: 'DetailsPanel',
+		flex:3
+		});
+
+	var combinedSessionPanel = Ext.create('Ext.Panel', {
+	    layout: {
+	        type: 'vbox',
+	        align: 'stretch'
+	    },
+	    items: [sessionsPanel, speakersPanel]
+
+	});
+		Ext.application({
+			name: 'MyApp',
+			launch: function () {
+				Ext.create('Ext.container.Viewport', {
+				    layout: {
+				        type: 'hbox',
+				        align: 'stretch'
+				    },
+					items: [combinedSessionPanel, detailsPanel]
+				});
+			}
+
+		});
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

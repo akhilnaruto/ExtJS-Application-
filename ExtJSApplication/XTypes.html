@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="ExtJS/ext-theme-neptune-all.css" rel="stylesheet" />
+    <script src="ExtJS/ext-all-debug.js"></script>
+ <script>
+
+     Ext.application({
+         name: 'MyApp',
+         launch: function () {
+             Ext.create('Ext.container.Viewport', {
+                 layout: {
+                     type: 'border'
+                 },
+                 items: [
+                     {
+                         region: 'west',
+                         split: true,
+                         xtype: 'panel',
+                         flex:1,
+                         layout: {
+                             type: 'vbox',
+                             align:'stretch'
+                         },
+                         items: [
+                             {
+                                 xtype: 'panel',
+                                 html: '<b>Sessions Panel</b>',
+                                 flex: 2
+                             },
+
+                             {
+                                 xtype: 'splitter',
+                                 width:1
+                             },
+
+                             {
+                                 xtype: 'panel',
+                                 html: '<b>Speakers Panel</b>',
+                                 flex: 1
+                             }
+                         ]
+
+                     },
+
+                     {
+                         region:'center',
+                         xtype: 'panel',
+                         html: '<b>Details Panel</b>',
+                         flex: 1,
+                         title: 'Details Panel',
+                         collapsible: 'true',
+                         collapsed: 'true',
+                         collapseDirection:'right'
+
+                     }
+
+                 ]
+
+             });
+
+         }
+
+     })
+
+ </script>
+</head>
+<body>
+
+</body>
+</html>
