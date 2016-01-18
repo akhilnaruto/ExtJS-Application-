@@ -67,6 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="data\presenters.json" />
+    <Content Include="data\sessionlevels.json" />
+    <Content Include="data\sessionpresenters.json" />
+    <Content Include="data\sessions.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,13 +82,40 @@
     <Content Include="ExtJS\ext-all-debug.js" />
     <Content Include="ExtJS\ext-all-neptune.css" />
     <Content Include="ExtJS\ext-theme-neptune-all.css" />
-    <Content Include="ExtJS\images\tools\tool-sprites.png" />
     <Content Include="ViewPort.html" />
     <Content Include="Web.config" />
     <Content Include="XTypes.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExtJS\images\btn-group\" />
+    <Folder Include="ExtJS\images\btn\" />
+    <Folder Include="ExtJS\images\button\" />
+    <Folder Include="ExtJS\images\datepicker\" />
+    <Folder Include="ExtJS\images\dd\" />
+    <Folder Include="ExtJS\images\editor\" />
+    <Folder Include="ExtJS\images\fieldset\" />
+    <Folder Include="ExtJS\images\form\" />
+    <Folder Include="ExtJS\images\grid-row-editor-buttons\" />
+    <Folder Include="ExtJS\images\grid\" />
+    <Folder Include="ExtJS\images\loadmask\" />
+    <Folder Include="ExtJS\images\menu\" />
+    <Folder Include="ExtJS\images\panel-header\" />
+    <Folder Include="ExtJS\images\panel\" />
+    <Folder Include="ExtJS\images\shared\" />
+    <Folder Include="ExtJS\images\sizer\" />
+    <Folder Include="ExtJS\images\slider\" />
+    <Folder Include="ExtJS\images\tab-bar\" />
+    <Folder Include="ExtJS\images\tab\" />
+    <Folder Include="ExtJS\images\tip\" />
+    <Folder Include="ExtJS\images\toolbar\" />
+    <Folder Include="ExtJS\images\tools\" />
+    <Folder Include="ExtJS\images\tree\" />
+    <Folder Include="ExtJS\images\util\" />
+    <Folder Include="ExtJS\images\window-header\" />
+    <Folder Include="ExtJS\images\window\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
