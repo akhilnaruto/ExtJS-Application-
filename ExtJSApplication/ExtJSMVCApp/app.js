@@ -7,7 +7,10 @@ Ext.Loader.setConfig({
 Ext.application({
     name: 'SE',
     requires: ['SE.view.MainView'],
-    views:['Sessions'],
+    views: [
+        'Sessions',
+        'SessionForm'
+    ],
     launch: function () {
         Ext.create('SE.view.MainView');
 

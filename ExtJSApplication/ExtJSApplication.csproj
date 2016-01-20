@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\view\SessionForm.js" />
     <Content Include="app\view\Sessions.js" />
     <Content Include="ExtJSMVCApp\app.js" />
     <Content Include="app\view\MainView.js" />

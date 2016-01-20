@@ -7,7 +7,7 @@ Ext.define('SE.view.Sessions', {
 
     listeners: {
         itemdblclick: function (gridpanel, record, item, e) {
-            var formWindow = Ext.create('SessionEditForm');
+            var formWindow = Ext.create('SE.view.SessionForm');
             var form = formWindow.down('form');
             form.loadRecord(record)
             formWindow.show();
