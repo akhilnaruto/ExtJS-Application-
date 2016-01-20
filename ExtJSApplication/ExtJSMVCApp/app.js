@@ -11,6 +11,9 @@ Ext.application({
         'Sessions',
         'SessionForm'
     ],
+    stores:[
+         'Sessions'
+    ], 
     launch: function () {
         Ext.create('SE.view.MainView');
 

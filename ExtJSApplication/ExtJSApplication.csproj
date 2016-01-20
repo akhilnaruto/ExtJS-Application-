@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\store\Sessions.js" />
     <Content Include="app\view\SessionForm.js" />
     <Content Include="app\view\Sessions.js" />
     <Content Include="ExtJSMVCApp\app.js" />
@@ -97,7 +98,6 @@
   <ItemGroup>
     <Folder Include="app\controller\" />
     <Folder Include="app\model\" />
-    <Folder Include="app\store\" />
     <Folder Include="ExtJS\images\btn-group\" />
     <Folder Include="ExtJS\images\btn\" />
     <Folder Include="ExtJS\images\button\" />
