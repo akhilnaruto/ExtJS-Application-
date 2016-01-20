@@ -66,6 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\view\Sessions.js" />
+    <Content Include="ExtJSMVCApp\app.js" />
+    <Content Include="app\view\MainView.js" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="data\presenters.json" />
     <Content Include="data\sessionlevels.json" />
@@ -90,6 +94,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\controller\" />
+    <Folder Include="app\model\" />
+    <Folder Include="app\store\" />
     <Folder Include="ExtJS\images\btn-group\" />
     <Folder Include="ExtJS\images\btn\" />
     <Folder Include="ExtJS\images\button\" />
