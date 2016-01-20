@@ -13,7 +13,10 @@ Ext.application({
     ],
     stores:[
          'Sessions'
-    ], 
+    ],
+    models:[
+         'Session'
+    ],
     launch: function () {
         Ext.create('SE.view.MainView');
 
