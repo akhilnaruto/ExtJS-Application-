@@ -84,7 +84,7 @@
     <Content Include="ExtJS\ext-theme-neptune-all.css" />
     <Content Include="ViewPort.html" />
     <Content Include="Web.config" />
-    <Content Include="XTypes.html" />
+    <Content Include="IndexWithOutMVC.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

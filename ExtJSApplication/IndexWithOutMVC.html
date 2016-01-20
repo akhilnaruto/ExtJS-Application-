@@ -10,7 +10,7 @@
          launch: function () {
 
 
-             Ext.define('SessionForm', {
+             Ext.define('SessionEditForm', {
                  extend: 'Ext.window.Window',
                  alias: 'widget.sessionform',
                  padding: 5,
@@ -84,7 +84,7 @@
 
                  listeners:{
                      itemdblclick: function (gridpanel , record , item , e) {
-                         var formWindow = Ext.create('SessionForm');
+                         var formWindow = Ext.create('SessionEditForm');
                          var form = formWindow.down('form');
                          form.loadRecord(record)
                          formWindow.show();
