@@ -7,7 +7,7 @@ Ext.define('SE.model.Session', {
          },
          'approved',
          {
-             dateFormat: 'C',
+             dateFormat: 'c',
              name: 'sessionTimeDateTime',
              sortType: 'asDate',
              type: 'date'
